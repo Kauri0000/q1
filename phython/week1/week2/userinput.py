@@ -1,3 +1,4 @@
 name = input("Whats your name?")
-print("Hello " + name + ", welcome to Python!")
-
+age = input("How old are you?")
+grade = input("What grade are you in?")
+print("Hello " + name + ", you are " + age + " years old and in grade " + grade + ".")
