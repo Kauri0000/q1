@@ -69,3 +69,4 @@ studentEmails = {
     
 }
 for name in studentEmails:
+    print(name, ":", studentEmails[name])
