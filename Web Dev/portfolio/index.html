@@ -8,27 +8,27 @@
     <script src="https://kit.fontawesome.com/f8fcef2409.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div id ="header">
-        <div class ="container">
+    <!-- Header -->
+    <div id="header">
+        <div class="container">
             <nav>
                 <img src="images/image-removebg-preview.png" class="logo">
                 <ul>
-                    <li><a href="Home">Home</a></li>
-                    <li><a href="Home">About</a></li>
-                    <li><a href="Home">Services</a></li>
-                    <li><a href="Home">Portfolio</a></li>
-                    <li><a href="Home">Contact</a></li>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
             <div class="header-text">
                 <p>My dog Storm.</p>
                 <h1>Yes my <span>dog </span><br> is goated</h1>
-    
-
-            </div> 
+            </div>
         </div>
     </div>
-    <!--- about --->
+
+    <!-- About -->
     <div id="About">
         <div class="container">
             <div class="row" style="display: flex; flex-wrap: wrap; align-items: flex-start;">
@@ -39,111 +39,151 @@
                     <div class="about-box" style="background: #ffffff; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); padding: 24px; margin-bottom: 24px;">
                         <h1 class="sub title" style="margin-bottom: 16px;">About Storm</h1>
                         <p style="margin-bottom: 24px;">Storm is a 3 year old Mixed Lab who loves to play fetch and go on long walks. She is very friendly and loves meeting new people. Storm is also very protective of her family and will bark at strangers.</p>
-                        
+
                         <div class="tab-titles" style="display: flex; gap: 16px; margin-bottom: 16px;">
                             <p class="tab-links active-link" onclick="opentab(event, 'Skills')" style="cursor:pointer; padding: 8px 16px; border-radius: 8px; background: #f0f0f0;">Skills</p>
                             <p class="tab-links" onclick="opentab(event, 'Tricks')" style="cursor:pointer; padding: 8px 16px; border-radius: 8px; background: #f0f0f0;">Tricks</p>
                             <p class="tab-links" onclick="opentab(event, 'Personality')" style="cursor:pointer; padding: 8px 16px; border-radius: 8px; background: #f0f0f0;">Personality</p>
                         </div>
-                        <div class="tab-contents active-tab" id="Skills" style="margin-bottom: 16px;">
+                        <div class="tab-contents active-tab" id="Skills">
                             <ul style="list-style: none; padding: 0;">
-                                <li style="margin-bottom: 8px;"><span style="font-weight: bold;">Speed</span><br>Uncatchable</li>
-                                <li style="margin-bottom: 8px;"><span style="font-weight: bold;">Intelligence</span><br>Adaptable</li>
-                                <li style="margin-bottom: 8px;"><span style="font-weight: bold;">Agility</span><br>Jumps high fences</li>
+                                <li><span style="font-weight: bold;">Speed</span><br>Uncatchable</li>
+                                <li><span style="font-weight: bold;">Intelligence</span><br>Adaptable</li>
+                                <li><span style="font-weight: bold;">Agility</span><br>Jumps high fences</li>
                             </ul>
                         </div>
-                        <div class="tab-contents" id="Tricks" style="margin-bottom: 16px;">
+                        <div class="tab-contents" id="Tricks">
                             <ul style="list-style: none; padding: 0;">
-                                <li style="margin-bottom: 8px;"><span style="font-weight: bold;">Fetch</span><br>Brings back the ball every time</li>
-                                <li style="margin-bottom: 8px;"><span style="font-weight: bold;">Sit</span><br>Sits on command</li>
-                                <li style="margin-bottom: 8px;"><span style="font-weight: bold;">Paw</span><br>Gives a paw for a handshake</li>
+                                <li><span style="font-weight: bold;">Fetch</span><br>Brings back the ball every time</li>
+                                <li><span style="font-weight: bold;">Sit</span><br>Sits on command</li>
+                                <li><span style="font-weight: bold;">Paw</span><br>Gives a paw for a handshake</li>
                             </ul>
                         </div>
-                        <div class="tab-contents" id="Personality" style="margin-bottom: 16px;">
+                        <div class="tab-contents" id="Personality">
                             <ul style="list-style: none; padding: 0;">
-                                <li style="margin-bottom: 8px;"><span style="font-weight: bold;">Friendly</span><br>Loves meeting new people</li>
-                                <li style="margin-bottom: 8px;"><span style="font-weight: bold;">Protective</span><br>Watches over her family</li>
-                                <li style="margin-bottom: 8px;"><span style="font-weight: bold;">Playful</span><br>Enjoys games and fun activities</li>
+                                <li><span style="font-weight: bold;">Friendly</span><br>Loves meeting new people</li>
+                                <li><span style="font-weight: bold;">Protective</span><br>Watches over her family</li>
+                                <li><span style="font-weight: bold;">Playful</span><br>Enjoys games and fun activities</li>
                             </ul>
                         </div>
                     </div>
-                    <!-- ------services------- -->
+
+                    <!-- Services -->
                     <div id="services" class="about-box" style="background: #ffffff; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); padding: 24px; margin-bottom: 24px;">
-                        <h1 class="sub title" style="margin-bottom: 16px;">Storm's Services</h1>
+                        <h1 class="sub title">Storm's Services</h1>
                         <div class="services-list" style="display: flex; gap: 24px; flex-wrap: wrap;">
                             <div style="background: #fff; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); padding: 24px; flex: 1; min-width: 220px; text-align: center;">
                                 <i class="fa-solid fa-dog"></i>
-                                <h2 style="margin-bottom: 12px;">Companion</h2>
-                                <p style="margin-bottom: 16px;">Storm is always there to keep you company and brighten your day with her playful energy.</p>
+                                <h2>Companion</h2>
+                                <p>Storm is always there to keep you company and brighten your day with her playful energy.</p>
                                 <a href="#" style="color: #007bff; text-decoration: underline;">Learn more</a>
                             </div>
                             <div style="background: #fff; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); padding: 24px; flex: 1; min-width: 220px; text-align: center;">
                                 <i class="fa-solid fa-shield"></i>
-                                <h2 style="margin-bottom: 12px;">Security</h2>
-                                <p style="margin-bottom: 16px;">Storm watches over her family and alerts everyone if strangers are nearby.</p>
+                                <h2>Security</h2>
+                                <p>Storm watches over her family and alerts everyone if strangers are nearby.</p>
                                 <a href="#" style="color: #007bff; text-decoration: underline;">Learn more</a>
                             </div>
                             <div style="background: #fff; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); padding: 24px; flex: 1; min-width: 220px; text-align: center;">
                                 <i class="fa-solid fa-dumbbell"></i>
-                                <h2 style="margin-bottom: 12px;">Exercise Buddy</h2>
-                                <p style="margin-bottom: 16px;">Whether it's fetch or long walks, Storm motivates you to stay active and healthy.</p>
+                                <h2>Exercise Buddy</h2>
+                                <p>Whether it's fetch or long walks, Storm motivates you to stay active and healthy.</p>
                                 <a href="#" style="color: #007bff; text-decoration: underline;">Learn more</a>
                             </div>
                         </div>
                     </div>
 
-                    <!-- ------portfolio------- -->
-                     <div id="portfolio">
+                    <!-- Portfolio -->
+                    <div id="portfolio">
                         <div class="container">
-                            <h1 class = "sub title">Storm's Portfolio</h1>
-                            <div class = "work-list">
-                                <div class = "work">
-                                    <img src="images/IMG_0070 2.png">
-                                    <h3>Heterochromia</h3>
-                                    <p>Storm's unique eyes are a result of her heterochromia, which gives her one blue and one brown eye. This condition is rare in dogs and adds to her charm.</p>
-                                    <a href="#"><i class="fa-solid fa-eye"></i></a>
+                            <div style="background: #ffffff; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); padding: 24px; margin-bottom: 24px;">
+                                <h1 class="sub title">Storm's Portfolio</h1>
+                                <div class="work-list">
+                                    <div class="work">
+                                        <img src="images/IMG_0070 2.png">
+                                        <div class="layer">
+                                            <h3>Heterochromia</h3>
+                                            <p>Storm's unique eyes are a result of her heterochromia, which gives her one blue and one brown eye.</p>
+                                            <a href="#"><i class="fa-solid fa-eye"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="work">
+                                        <img src="images/IMG_0044.png">
+                                        <div class="layer">
+                                            <h3>Dog Breed</h3>
+                                            <p>Storm is a mixed breed dog, which means she has a combination of different breeds in her lineage.</p>
+                                            <a href="#"><i class="fa-solid fa-paw"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="work">
+                                        <img src="images/IMG_1463.png">
+                                        <div class="layer">
+                                            <h3>Backstory</h3>
+                                            <p>Storm was found abandoned on a farm. She was found alone.</p>
+                                            <a href="#"><i class="fa-solid fa-book"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="work">
+                                        <img src="images/IMG_1462.png">
+                                        <div class="layer">
+                                            <h3>Adoption</h3>
+                                            <p>We found Storm on a dog website. Her original name was Madelyn.</p>
+                                            <a href="#"><i class="fa-solid fa-heart"></i></a>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class = "work">
-                                    <img src="images/IMG_0044.png">
-                                    <h3>Dog Breed</h3>
-                                    <p>Storm is a mixed breed dog, which means she has a combination of different breeds in her lineage. This gives her a unique appearance and personality.</p>
-                                    <a href="#"><i class="fa-solid fa-paw"></i></a>
+                                <div style="text-align: center;">
+                                    <a href="#" class="btn">View More</a>
                                 </div>
-                                <div class = "work">
-                                    <img src="images/IMG_0494.png">
-                                    <h3>Backstory</h3>
-                                    <p>Storm was found near a barn</p>
-                                </div>
-                                <div class = "work">
-                                    <img src="images/IMG_0109.png">
-                                    <h3></h3>
-                                    <p></p>
-                                </div>
-                                
-                                  
-
-
                             </div>
                         </div>
+                    </div>
 
-                     </div>
+                    <!-- Contact -->
+                    <div id="contact">
+                        <div class="container">
+                            <div class="row">
+                                <div class="contact-left">
+                                    <h1 class="sub-title">Contact Me</h1>
+                                    <p>kauri.adeduro@hgs.hiddengeniusproject.org</p>
+                                    <p>+1 (510)-241-5074</p>
+                                    <div class="social-icons">
+                                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                    </div>
+                                </div>
+                                <div class="contact-right">
+                                    <form>
+                                        <input type="text" name="Name" placeholder="Your Name" required>
+                                        <input type="email" name="Email" placeholder="Your Email" required>
+                                        <textarea name="Message" placeholder="Your Message" required></textarea>
+                                        <button type="submit" class="btn">Submit</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-                    <script>
-                    var tablinks = document.getElementsByClassName("tab-links");
-                    var tabcontents = document.getElementsByClassName("tab-contents");
+                </div>
+            </div>
+        </div>
+    </div>
 
-                    function opentab(evt, tabname){
-                        for (let tablink of tablinks){
-                            tablink.classList.remove("active-link");
-                        }
-                        for (let tabcontent of tabcontents){
-                            tabcontent.classList.remove("active-tab");
-                        }
-                        evt.currentTarget.classList.add("active-link");
-                        document.getElementById(tabname).classList.add("active-tab");
-                    }
-                    </script>
-                </script>
-    
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(evt, tabname){
+            for (let tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for (let tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            evt.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
 </body>
 </html>
